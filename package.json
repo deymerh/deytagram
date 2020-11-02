@@ -22,6 +22,7 @@
   "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
   "devDependencies": {
     "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "babel-loader": "^8.1.0",
@@ -33,14 +34,18 @@
   },
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "styled-components": "^5.2.0"
   },
-  "standard":{
-    "ignore":[
+  "standard": {
+    "ignore": [
       "/api/**"
     ]
   },
-  "eslintConifg":{
-    "extends": ["./node_modules/standard/eslintrc.json"]
+  "eslintConifg": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
